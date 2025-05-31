@@ -1,0 +1,20 @@
+# Ignorar archivos de entorno
+.env
+
+# Ignorar cachés de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar entornos virtuales
+venv/
+.env/
+
+# Archivos temporales de editores
+*.swp
+.DS_Store
+
+# Datos generados
+# data/final_dataset.csv
+
