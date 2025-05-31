@@ -4,7 +4,7 @@ Este proyecto es un scraping de datos en Python que extrae comentarios recientes
 
 ## Propósito
 
-El objetivo del proyecto es recolectar hasta 40 de los comentarios más recientes de uno o más videos de YouTube (hasta 3 URLs) y guardar los resultados en un archivo CSV para su análisis posterior.
+El objetivo del proyecto es recolectar hasta 500 de los comentarios más recientes de tres videos de YouTube y guardar los resultados en un archivo CSV para su análisis posterior.
 
 ## Estructura del Repositorio
 
@@ -49,7 +49,7 @@ No compartas ni subas tu archivo `.env`. Este archivo está ignorado mediante `.
 
 1. Activa tu entorno virtual.  
 2. Navega a la carpeta raíz del proyecto.  
-3. Ejecuta el script y proporciona entre 1 y 3 URLs de videos de YouTube cuando se te solicite:
+3. Ejecuta el script, puedes introducir las urls de los 3 videos que desees:
 
 ```
 python code/youtube_scraper.py
@@ -58,7 +58,7 @@ python code/youtube_scraper.py
 El script hará lo siguiente:
 
 - Cargará la llave de API desde el archivo `.env`.
-- Usará la API de YouTube para extraer los 40 comentarios más recientes de cada video.
+- Usará la API de YouTube para extraer los 500 comentarios más recientes de cada video.
 - Guardará los resultados combinados en `data/final_dataset.csv`.
 
 ## Salida
@@ -71,10 +71,4 @@ El archivo final `final_dataset.csv` contendrá las siguientes columnas:
 - author_name  
 - published_at  
 - like_count
-
-## Estilo y buenas prácticas
-
-El código sigue las convenciones de estilo PEP-8 y no expone datos sensibles ni secretos.
-
-## Licencia
 
